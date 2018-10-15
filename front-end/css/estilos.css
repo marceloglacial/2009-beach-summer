@@ -1,0 +1,184 @@
+/* Projeto: TV Verdes Mares
+   Desenvolvedor: Marcelo Glacial
+   Inicio: 05/09/2007
+   Ultima alteracao: 17/09/2007
+*/
+
+
+/* Reset  
+---------------------------------------------------------------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../img/fundo.jpg) repeat-x #FFF;;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#484848;
+}
+hr {
+	display:none;
+}
+a {
+	text-decoration:none;
+	color:#666;
+}
+
+/* Site
+---------------------------------------------------------------------------------- */
+#Site {
+	width:953px;
+	height:621px;
+	margin:0 auto;
+	position:relative;
+	background:url(../img/conteudo_fundo.jpg) 374px 75px no-repeat;
+}
+
+/* Atalhos
+---------------------------------------------------------------------------------- */
+#Atalhos {
+	display:none;
+}
+
+/* Cabecalho
+---------------------------------------------------------------------------------- */
+#Cabecalho {
+	float:left;
+}
+#Cabecalho h1 a {
+	display:block;
+	width:374px;
+	height:466px;
+	text-indent:-9999px;
+	
+	background:url(../img/cabecalho_fundo.jpg) no-repeat;
+}
+#Cabecalho p {
+	display:none;
+}
+
+/* Menu
+---------------------------------------------------------------------------------- */
+#Menu {
+	position:absolute;
+	top:0px;
+	left:374px;
+	width:558px;
+	height:75px;
+	
+	background:url(../img/menu_fundo.png) no-repeat;
+}
+#Menu h2 {
+	display:none;
+}
+#Menu ul {
+	list-style:none;
+	padding-left:17px;
+}
+#Menu ul li {
+	float:left;
+}
+#Menu ul li a {
+	display:block;
+	width:50px;
+	height:50px;
+	text-indent:-9999px;
+}
+#Menu ul li.ativo a,
+#Menu ul li a:hover {
+	border-bottom:solid 3px #FFF;
+}
+#Menu ul li.home a {
+	width:80px;
+}
+#Menu ul li.programacao a {
+	width:125px;
+	margin-left:13px;
+}
+#Menu ul li.fotos a {
+	width:53px;
+	margin-left:13px;
+}
+#Menu ul li.estrutura a {
+	width:87px;
+	margin-left:13px;
+}
+#Menu ul li.contato a {
+	margin-left:13px;
+	width:70px;
+}
+
+/* Conteudo
+---------------------------------------------------------------------------------- */
+#Conteudo {
+	float:left;
+	width:430px;
+	height:438px;
+	
+	padding:75px 0 0 40px;
+	
+}
+body #Conteudo h2 {
+	display:block;
+	width:200px;
+	height:24px;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
+body.home #Conteudo h2 {
+	background:url(../img/titulo_home.gif) no-repeat;
+}
+body.programacao #Conteudo h2 {
+	background:url(../img/titulo_programacao.gif) no-repeat;
+}
+body.fotos #Conteudo h2 {
+	background:url(../img/titulo_fotos.gif) no-repeat;
+}
+body.estrutura #Conteudo h2 {
+	background:url(../img/titulo_estrutura.gif) no-repeat;
+}
+body.contato #Conteudo h2 {
+	background:url(../img/titulo_contato.gif) no-repeat;
+}
+#Conteudo p {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:85%;
+	color:#484848;
+	padding-bottom:15px;
+}
+#Conteudo .navegacao a {
+	border-bottom:solid 1px #484848;
+}
+#Conteudo .navegacao a:hover {
+	border-bottom:none;
+}
+
+/* Rodape
+---------------------------------------------------------------------------------- */
+#Rodape {
+	position:absolute;
+	top:513px;
+	left:307px;
+
+	width:645px;
+	height:108px;
+
+	background:url(../img/rodape_fundo.jpg) no-repeat;
+}
+#Rodape div {
+	display:none;
+}
+#Rodape div.vcard {
+	display:block;
+	position:relative;
+}
+#Rodape div.vcard a {
+	position:absolute;
+	top:10px;
+	left:280px;
+	
+	display:block;
+	width:130px;
+	height:100px;
+	text-indent:-9999px;
+}
