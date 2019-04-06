@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2009-beach-summer/
+https://marceloglacial.github.io/2009-beach-summer/front-end/
 
 ## Screnshot
 
